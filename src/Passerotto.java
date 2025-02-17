@@ -1,0 +1,3 @@
+class Passerotto extends Animale {
+    
+}

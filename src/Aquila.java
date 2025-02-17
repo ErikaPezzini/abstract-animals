@@ -1,0 +1,3 @@
+class Aquila extends Animale {
+    
+}
