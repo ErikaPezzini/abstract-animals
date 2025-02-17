@@ -23,6 +23,11 @@ public class Main {
         aquila.mangia();
 
         System.out.println("");
-        
+
+        Delfino delfino = new Delfino();
+        delfino.dormi();
+        System.out.println("Sono un delfino!");
+        delfino.verso();
+        delfino.mangia();
     }
 }
