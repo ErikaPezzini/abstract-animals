@@ -13,6 +13,7 @@ public class Main {
         System.out.println("Sono un passerotto!");
         passerotto.verso();
         passerotto.mangia();
+        passerotto.vola();
 
         System.out.println("");
 
@@ -21,6 +22,7 @@ public class Main {
         System.out.println("Sono un'aquila!");
         aquila.verso();
         aquila.mangia();
+        aquila.vola();
 
         System.out.println("");
 
@@ -29,5 +31,6 @@ public class Main {
         System.out.println("Sono un delfino!");
         delfino.verso();
         delfino.mangia();
+        delfino.nuota();
     }
 }
