@@ -5,5 +5,11 @@ public class Main {
         System.out.println("Sono un cane!");
         cane.verso();
         cane.mangia();
+
+        Passerotto passerotto = new Passerotto();
+        passerotto.dormi();
+        System.out.println("Sono un passerotto!");
+        passerotto.verso();
+        passerotto.mangia();
     }
 }
