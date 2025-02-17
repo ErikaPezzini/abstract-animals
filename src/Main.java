@@ -1,4 +1,13 @@
 public class Main {
+
+    public static void faiVolare(IVolante animale){
+        animale.vola();
+    }
+
+    public static void faiNuotare(INuotante animale){
+        animale.nuota();
+    }
+
     public static void main(String[] args) {
         Cane cane = new Cane();
         cane.dormi();
@@ -13,7 +22,7 @@ public class Main {
         System.out.println("Sono un passerotto!");
         passerotto.verso();
         passerotto.mangia();
-        passerotto.vola();
+        faiVolare(passerotto);
 
         System.out.println("");
 
@@ -22,7 +31,7 @@ public class Main {
         System.out.println("Sono un'aquila!");
         aquila.verso();
         aquila.mangia();
-        aquila.vola();
+        faiVolare(aquila);
 
         System.out.println("");
 
@@ -31,6 +40,6 @@ public class Main {
         System.out.println("Sono un delfino!");
         delfino.verso();
         delfino.mangia();
-        delfino.nuota();
+        faiNuotare(delfino);
     }
 }
