@@ -1,0 +1,3 @@
+interface  IVolante {
+    void vola();
+}
